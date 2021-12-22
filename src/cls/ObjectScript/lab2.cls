@@ -1,0 +1,19 @@
+//SushiBar(вид, назва) = склад
+//SushiBar(вид, назва, кількість/вага) = ціна
+Set SushiBar(&quot;рисові кульки&quot;, &quot;Онігірі з крабом&quot;, &quot;1/20&quot;) = 7
+Set SushiBar(&quot;рисові кульки &quot;, &quot;Темарі з лососем&quot;, &quot;1/20&quot;) = 9
+Set SushiBar(&quot;рисові кульки &quot;, &quot;Темарі з окунем&quot;, &quot;1/20&quot;) = 8
+Set SushiBar(&quot;суши&quot;, &quot;Суши Чука&quot;, &quot;1/30&quot;) = 7
+Set SushiBar(&quot;суши&quot;, &quot;Суши Кані&quot;, &quot;1/30&quot;) = 12
+Set SushiBar(&quot;суши&quot;, &quot;Суши Крема&quot;, &quot;1/30&quot;) = 13
+Set SushiBar(&quot;суши&quot;, &quot;Суши Сяке&quot;, &quot;1/30&quot;) = 13
+Set SushiBar(&quot;роли&quot;, &quot;Рол Лосось&quot;) = &quot;Рис, норі, лосось&quot;
+Set SushiBar(&quot;роли&quot;, &quot;Рол Лосось&quot;, &quot;3/55&quot;) = 18
+Set SushiBar(&quot;роли&quot;, &quot;Рол Лосось&quot;, &quot;6/110&quot;) = 33
+Set SushiBar(&quot;роли&quot;, &quot;Рол Ікура&quot;) = &quot;Рис, норі, вершковий сир, червона ікра&quot;
+Set SushiBar(&quot;роли&quot;, &quot;Рол Ікура&quot;, &quot;3/60&quot;) = 23
+Set SushiBar(&quot;роли&quot;, &quot;Рол Ікура&quot;, &quot;6/125&quot;) = 43
+Set SushiBar(&quot;роли&quot;, &quot;Рол Унагі&quot;) = &quot;Рис, норі, копчений вугор, соус Унагі&quot;
+Set SushiBar(&quot;роли&quot;, &quot;Рол Унагі&quot;, &quot;3/66&quot;) = 25
+Set SushiBar(&quot;роли&quot;, &quot;Рол Унагі&quot;, &quot;6/130&quot;) = 48
+
