@@ -1,6 +1,6 @@
-ARG IMAGE=intersystems/iris:2019.1.0S.111.0
-ARG IMAGE=store/intersystems/iris:2019.1.0.511.0-community
-ARG IMAGE=store/intersystems/iris:2019.2.0.107.0-community
+#ARG IMAGE=intersystems/iris:2019.1.0S.111.0
+ARG IMAGE=store/intersystems/iris:2021.1.0.215.3-community
+ARG IMAGE=store/intersystems/iris:2021.1.0.215.3-community
 #ARG IMAGE=intersystems/iris:2019.3.0.302.0
 FROM $IMAGE
 
