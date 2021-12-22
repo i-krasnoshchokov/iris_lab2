@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "dockeriris",
+        "ns": "%SYS",
+        "active": true
+    }
+}
