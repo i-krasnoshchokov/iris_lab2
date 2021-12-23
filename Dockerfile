@@ -1,8 +1,13 @@
-#ARG IMAGE=intersystems/iris:2019.1.0S.111.0
-ARG IMAGE=store/intersystems/iris:2021.1.0.215.3-community
-ARG IMAGE=store/intersystems/iris:2021.1.0.215.3-community
-#ARG IMAGE=intersystems/iris:2019.3.0.302.0
-FROM $IMAGE
+ARG IMAGE=store/intersystems/iris-community:2019.3.0.309.0
+ARG IMAGE=store/intersystems/iris-community:2019.4.0.379.0
+ARG IMAGE=store/intersystems/iris-community:2020.1.0.199.0
+ARG IMAGE=intersystemsdc/iris-community:2019.4.0.383.0-zpm
+ARG IMAGE=intersystemsdc/iris-community:2020.1.0.209.0-zpm
+ARG IMAGE=intersystemsdc/iris-community:2020.3.0.200.0-zpm
+ARG IMAGE=intersystemsdc/iris-community:2020.2.0.196.0-zpm
+ARG IMAGE=intersystemsdc/iris-community:2020.4.0.524.0-zpm
+ARG IMAGE=intersystemsdc/iris-community:2021.1.0.215.3-zpm
+FROM $IMAGE 
 
 WORKDIR /opt/app
 
